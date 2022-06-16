@@ -6,12 +6,12 @@ func main() {
 	var pricePear  int     = 7
 	var wallet     float64 = 23
 	
-	fmt.Println("\nЦена одного яблока - ", priceApple, "грн. Цена одной груши - ", pricePear, "грн.")
+	fmt.Println("\nЦена одного яблока - ", priceApple, "грн. Цена одной груши - ", pricePear, "грн.\n")
 	fmt.Println("У нас в кошельке - ", wallet, " грн.", "\n")
 
 	fmt.Println("1. Сколько денег нужно для покупки 9 яблок и 8 груш?")
 	var res1 float64 = (9 * priceApple) + (8 * float64(pricePear))
-	fmt.Println("Щоб купити 9 яблук та 8 груш потрібно", res1, "\n")
+	fmt.Println("Чтобы купить 9 яблок и 8 груш нужно", res1, "\n")
 
 	fmt.Println("2. Сколько груш мы можем купить?")
 	var res2 int = int(wallet) / int(pricePear)
