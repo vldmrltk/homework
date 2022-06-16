@@ -2,11 +2,10 @@ package main
 import "fmt"
 
 func main() {
-	var (
-		priceApple float64 = 5.99
-		pricePear  int     = 7
-		wallet     float64 = 23
-	)
+	var priceApple float64 = 5.99
+	var pricePear  int     = 7
+	var wallet     float64 = 23
+	
 	fmt.Println("\nЦена одного яблока - ", priceApple, "грн. Цена одной груши - ", pricePear, "грн.")
 	fmt.Println("У нас в кошельке - ", wallet, " грн.", "\n")
 
